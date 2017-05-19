@@ -1,0 +1,23 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Dominik
+ * Date: 19.05.2017
+ * Time: 15:50
+ */
+return [
+    'doctrine' => [
+        'connection' => [
+            'orm_default' => [
+                'driverClass' => \Doctrine\DBAL\Driver\PDOMySql\Driver::class,
+                'params' => [
+                    'host' => 'localhost',
+                    'port' => '3306',
+                    'dbname' => 'excel',
+                    'user' => 'root',
+                    'password' => '',
+                ],
+            ],
+        ],
+    ],
+];

@@ -53,7 +53,7 @@ class ExportXlsController extends AbstractActionController
         //create file
         $file = $this->exportFile->createFile($data, $path, $clientId);
 
-        //get project URI, example http://test.prism-servers.co.uk:80
+        //get project URI, example http://test.eu:80
         $uri = $this->getRequest()->getUri();
         $scheme = $uri->getScheme();
         $host = $uri->getHost();
