@@ -45,7 +45,7 @@ class OauthAccessTokens
     /**
      * @var string
      *
-     * @ORM\Column(name="scope", type="string", length=2000, nullable=true)
+     * @ORM\Column(name="scope", type="string", length=200, nullable=true)
      */
     private $scope;
 

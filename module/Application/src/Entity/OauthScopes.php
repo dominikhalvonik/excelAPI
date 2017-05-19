@@ -15,7 +15,7 @@ class OauthScopes
     /**
      * @var string
      *
-     * @ORM\Column(name="scope", type="string", length=2000, nullable=false)
+     * @ORM\Column(name="scope", type="string", length=200, nullable=false)
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="IDENTITY")
      */
